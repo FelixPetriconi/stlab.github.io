@@ -1,5 +1,5 @@
 sudo: required
-dist: xenial
+dist: bionic
 
 notifications:
   slack:
@@ -22,8 +22,8 @@ addons:
       - ubuntu-toolchain-r-test
 
     packages:
-      - gcc-7
-      - g++-7
+      - gcc-9
+      - g++-9
       - cmake
       - cmake-data
       - libcurl4-openssl-dev # required to avoid SSL errors
